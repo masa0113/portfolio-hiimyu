@@ -1,10 +1,11 @@
-name: github pages
+name: GitHub Pages
 
 # masterブランチにプッシュしたときjobsに記述した操作を行う
 on:
   push:
     branches:
-      - master
+      - main
+    pull_request:
 
 jobs:
   build-deploy:
