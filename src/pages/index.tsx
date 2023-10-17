@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        test2
+        test23
         <video
           style={{ width: "100%", height: "100%", zIndex: 9999 }}
           src="https://www.youtube.com/watch?v=pm7JVGL2K8Y&ab_channel=FIXDTOKYO"
