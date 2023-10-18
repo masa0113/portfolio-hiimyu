@@ -16,10 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         test23
-        <video
-          style={{ width: "100%", height: "100%", zIndex: 9999 }}
-          src="https://www.youtube.com/watch?v=pm7JVGL2K8Y&ab_channel=FIXDTOKYO"
-        ></video>
+        <iframe class="youtube-video" width="720" height="405" src="https://www.youtube.com/watch?v=pm7JVGL2K8Y&ab_channel=FIXDTOKYO" frameborder="0" allowfullscreen></iframe>
       </main>
     </>
   );
