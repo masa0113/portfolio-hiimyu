@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         test23
-        <iframe className="youtube-video" width="720" height="405" src="https://www.youtube.com/watch?v=pm7JVGL2K8Y&ab_channel=FIXDTOKYO" frameBorder="0" allowfullscreen></iframe>
+        <iframe className="youtube-video" width="720" height="405" src="https://www.youtube.com/watch?v=pm7JVGL2K8Y&ab_channel=FIXDTOKYO" frameBorder="0" allowFullScreen></iframe>
       </main>
     </>
   );
